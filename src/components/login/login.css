@@ -1,0 +1,177 @@
+.logoBody {
+    display: block;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bg_primary);
+}
+.container_login {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 50rem;
+    box-shadow: 0 0 0 0.2rem var(--color_primary);
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    margin: 0 auto;
+    top: 50%;
+    position: relative;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+}
+.sideLeft {
+    display: inline-flex;
+    width: 50%;
+    min-height: 20rem;
+    padding: 2rem 1rem;
+}
+.sideLeft img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.sideRight {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 50%;
+    padding: 2rem 1rem;
+    background-color: var(--color_primary);
+    color: var(--blanco);
+}
+.sideRight .logo {
+    display: block;
+    width: 100%;
+    height: 10rem;
+}
+.sideRight .logo img {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+}
+.sideRight .descript {
+    display: block;
+    width: 70%;
+    margin: 1rem auto;
+}
+.descript h3 {
+    text-align: center;
+}
+.descript p {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+.sideRight form {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+.sideRight form input {
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 1px var(--color_third);
+    border-radius: 0.3rem;
+    outline: none;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+    line-height: 2rem;
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+}
+.sideRight form p.label {
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+    margin-left: 0.5rem;
+    font-weight: bolder;
+}
+.buttonsForm {
+    display: block;
+    margin-top: 3rem;
+    text-align: center;
+}
+.buttonsForm .goApp {
+    display: block;
+    margin: 0.5rem auto;
+    background-color: var(--blue);
+    padding: 0 0.5rem;
+    width: auto;
+}
+.buttonsForm .reqApp {
+    display: inline-block;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    width: auto;
+}
+.error {
+    font-size: 0.9rem;
+    color: var(--red);
+    font-weight: 400;
+}
+
+/*
+#############################################################
+        Modal style
+*/
+.containerModal {
+    display: block;
+    max-width: 50rem;
+    max-height: 25rem;
+    box-shadow: 0 0 2rem var(--color_third);
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    margin: 0 auto;
+    top: 50%;
+    position: relative;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    text-align: center;
+    padding: 3rem;
+    background-color: var(--color_sixth);
+}
+.containerModal .headerModal > span {
+    display: block;
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+}
+.containerModal .headerModal > span svg {
+    fill: var(--success);
+}
+.containerModal .headerModal > h3 {
+    margin: 1rem 0;
+}
+
+@media (max-width: 800px) {
+    .logoBody {
+        height: auto;
+    }
+    .container_login {
+        max-width: 90%;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        margin-top: 3rem;
+    }
+    .sideLeft {
+        display: none;
+    }
+    .sideRight {
+        width: 100%;
+    }
+}

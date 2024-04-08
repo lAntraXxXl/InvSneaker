@@ -1,0 +1,54 @@
+.containerAlerts{
+    position: absolute;
+    z-index: 3;
+    bottom: 3rem;
+    right: 3rem;
+    width: 24rem;
+    height: 7rem;
+    background-color: var(--blanco);
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 0 1.5rem  var(--color_quarter);
+}
+.containerAlerts .success,
+.containerAlerts .warning,
+.containerAlerts .error{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 15px 20px;
+}
+.containerAlerts .alertHead{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+.containerAlerts .alertHead span{
+    line-height: 0;
+}
+.containerAlerts .alertHead svg{
+    width: 30px;
+    margin-right: 5px;
+}
+.containerAlerts .success{
+    box-shadow: inset 5px 0 0 0 var(--success);
+    fill: var(--success);
+    color: var(--success);
+}
+.containerAlerts .warning{
+    box-shadow: inset 5px 0 0 0 var(--warning);
+    fill: var(--warning);
+    color: var(--warning);
+}
+.containerAlerts .error{
+    box-shadow: inset 5px 0 0 0 var(--error);
+    fill: var(--error);
+    color: var(--error);
+}
