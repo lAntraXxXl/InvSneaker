@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/InvSneaker/static/css/main.d4385feb.css",
+    "main.js": "/InvSneaker/static/js/main.cbacd475.js",
+    "static/media/03.jpg": "/InvSneaker/static/media/03.4af39ba8ce9cb1d79cf5.jpg",
+    "static/media/01.jpg": "/InvSneaker/static/media/01.94b06f22510ef6ccb83f.jpg",
+    "static/media/04.jpg": "/InvSneaker/static/media/04.916915423f5bec45ccd8.jpg",
+    "static/media/02.jpg": "/InvSneaker/static/media/02.594672168fdb620eac4d.jpg",
+    "static/media/05.jpg": "/InvSneaker/static/media/05.b3bbbb33f81b2fc61586.jpg",
+    "static/media/blacklogo.png": "/InvSneaker/static/media/blacklogo.ae8cf75a0c01934602d0.png",
+    "static/media/logo.svg": "/InvSneaker/static/media/logo.a8b3b0c3747edb93b7613d17b5021820.svg",
+    "static/media/portada.svg": "/InvSneaker/static/media/portada.f3fb5c114e721db4621dee23d1c051c6.svg",
+    "index.html": "/InvSneaker/index.html",
+    "main.d4385feb.css.map": "/InvSneaker/static/css/main.d4385feb.css.map",
+    "main.cbacd475.js.map": "/InvSneaker/static/js/main.cbacd475.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4385feb.css",
+    "static/js/main.cbacd475.js"
+  ]
+}
